@@ -1,0 +1,243 @@
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Create
+Error code for the Exception is = -2146233086
+Message for the exception = Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Create
+Error code for the Exception is = -2146233086
+Message for the exception = Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Create
+Error code for the Exception is = -2146233086
+Message for the exception = Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+
+Date = 29-07-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_ReadById
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Student_ActivateAccount
+Error code for the Exception is = -2146232060
+Message for the exception = Procedure or function 'Student_Activate' expects parameter '@StudentGuid', which was not supplied.
+
+Date = 30-07-2019 00:00:00
+Error occured at method = Faculty_Login
+Error code for the Exception is = -2147024809
+Message for the exception = Column 'BranchId' does not belong to table .
+
+Date = 31-07-2019 00:00:00
+Error occured at method = Assignment_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 31-07-2019 00:00:00
+Error occured at method = Assignment_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 31-07-2019 00:00:00
+Error occured at method = Assignment_Create
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 31-07-2019 00:00:00
+Error occured at method = Assignment_Read
+Error code for the Exception is = -2146233079
+Message for the exception = The connection was not closed. The connection's current state is open.
+
+Date = 01-08-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 01-08-2019 00:00:00
+Error occured at method = Faculty_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 01-08-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 01-08-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 01-08-2019 00:00:00
+Error occured at method = Faculty_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 01-08-2019 00:00:00
+Error occured at method = Student_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 10-08-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 10-08-2019 00:00:00
+Error occured at method = Subject_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 10-08-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 10-08-2019 00:00:00
+Error occured at method = Subject_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
+
+Date = 10-08-2019 00:00:00
+Error occured at method = Branch_Read
+Error code for the Exception is = -2147467262
+Message for the exception = Object cannot be cast from DBNull to other types.
