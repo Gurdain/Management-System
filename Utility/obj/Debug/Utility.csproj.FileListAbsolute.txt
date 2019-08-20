@@ -1,0 +1,12 @@
+C:\Users\test1\source\repos\Employee_Test\Utility\obj\Debug\Utility.csprojAssemblyReference.cache
+C:\Users\test1\source\repos\Employee_Test\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\test1\source\repos\Employee_Test\Utility\bin\Debug\Utility.dll
+C:\Users\test1\source\repos\Employee_Test\Utility\bin\Debug\Utility.pdb
+C:\Users\test1\source\repos\Employee_Test\Utility\obj\Debug\Utility.dll
+C:\Users\test1\source\repos\Employee_Test\Utility\obj\Debug\Utility.pdb
+C:\Users\gurdain.singh\source\repos\Management System\Utility\obj\Debug\Utility.csprojAssemblyReference.cache
+C:\Users\gurdain.singh\source\repos\Management System\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\gurdain.singh\source\repos\Management System\Utility\obj\Debug\Utility.dll
+C:\Users\gurdain.singh\source\repos\Management System\Utility\obj\Debug\Utility.pdb
+C:\Users\gurdain.singh\source\repos\Management System\Utility\bin\Debug\Utility.dll
+C:\Users\gurdain.singh\source\repos\Management System\Utility\bin\Debug\Utility.pdb
