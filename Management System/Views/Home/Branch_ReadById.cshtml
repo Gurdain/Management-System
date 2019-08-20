@@ -1,0 +1,64 @@
+﻿@model Management_System.Models.Branch
+
+@{
+    ViewBag.Title = "Branch_ReadById";
+}
+
+<h2>Branch_ReadById</h2>
+
+<div>
+    <h4>Branch</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.BranchName)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.createdOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.modifiedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.deletedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.isDeleted)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.BranchName)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.createdOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.modifiedOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.deletedOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.isDeleted)
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Edit", "Branch_Edit", new { id = Model.BranchId }) |
+                @Html.ActionLink("Delete", "Branch_Delete", new { id = Model.BranchId })
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Branch_Read")
+</div>

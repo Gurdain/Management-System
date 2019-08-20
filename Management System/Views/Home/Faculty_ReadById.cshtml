@@ -1,0 +1,106 @@
+﻿@model Management_System.Models.Faculty
+
+@{
+    ViewBag.Title = "Faculty_ReadById";
+}
+
+<h2>Faculty_ReadById</h2>
+
+<div>
+    <h4>Faculty</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.FacultyName)
+            </th>
+            &nbsp;
+            <th style="text-align: center">
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="170">
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.createdOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.modifiedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.deletedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.isDeleted)
+            </th>
+            @*&nbsp;
+                <th style="text-align: center" width="150">
+                    @Html.DisplayNameFor(model => model.FacultyGuid)
+                </th>*@
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.SubjectId)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.FacultyName)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.Email)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.Password)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.Mobile)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.Active)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.createdOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.modifiedOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.deletedOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.isDeleted)
+            </td>
+            @*<td style="text-align: center">
+                    @Html.DisplayNameFor(model => model.FacultyGuid)
+                </td>*@
+            <td style="text-align: center">
+                @Html.DisplayNameFor(model => model.SubjectId)
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Edit", "Faculty_Edit", new { id = Model.FacultyId }) |
+                @Html.ActionLink("Delete", "Faculty_Delete", new { id = Model.FacultyId })
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Faculty_Read")
+</div>

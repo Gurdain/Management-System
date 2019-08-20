@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Management_System.Models.Assignment>
+
+@{
+    ViewBag.Title = "Assignment_Read_Student";
+}
+
+<div class="jumbotron">
+    <h1>Student Dashboard</h1>
+    @if (Session["studentId"] != null)
+    {
+        <p class="lead">Welcome @Session["studentName"].ToString()</p>
+        <div>
+            @Html.ActionLink("Upload Homework", "Homework_Upload", "Home") |
+            @Html.ActionLink("Uploaded Homework", "Homework_Read") |
+            @Html.ActionLink("Edit Details", "Student_Edit", new { id = Convert.ToInt32(Session["studentId"]) })
+        </div>
+    }
+    <h4>@ViewBag.Message</h4>
+</div>
+
+<div>
+    <h4>Assignment</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.AssignmentName)
+            </th>
+            &nbsp;
+            <th style="text-align: center">
+                @Html.DisplayNameFor(model => model.Path)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="170">
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.FacultyId)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>
+        </tr>
+        @foreach (Management_System.Models.Assignment assignment in Model)
+        {
+        <tr>
+            <td style="text-align: center">
+                @assignment.AssignmentName
+            </td>
+            <td style="text-align: center">
+                @assignment.Path
+            </td>
+            <td style="text-align: center">
+                @assignment.Type
+            </td>
+            <td style="text-align: center">
+                @assignment.FacultyId
+            </td>
+            <td style="text-align: center">
+                @if (!assignment.isDeleted)
+                {
+                    <a href="~/Assignments/@assignment.AssignmentName" download> Download</a>
+                }
+                else{ 
+                    <p>Unavailable</p>
+                }
+            </td>
+        </tr>
+        }
+    </table>
+</div>
+

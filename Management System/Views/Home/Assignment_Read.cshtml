@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Management_System.Models.Assignment>
+
+@{
+    ViewBag.Title = "Assignment_Read";
+}
+
+<h2>Assignment_Read</h2>
+
+<div>
+    <h4>Assignment</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.AssignmentName)
+            </th>
+            &nbsp;
+            <th style="text-align: center">
+                @Html.DisplayNameFor(model => model.Path)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="170">
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.FacultyId)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>
+        </tr>
+        @foreach (Management_System.Models.Assignment assignment in Model)
+        {
+            <tr>
+                <td style="text-align: center">
+                    @assignment.AssignmentName
+                </td>
+                <td style="text-align: center">
+                    @assignment.Path
+                </td>
+                <td style="text-align: center">
+                    @assignment.Type
+                </td>
+                <td style="text-align: center">
+                    @assignment.FacultyId
+                </td>
+                <td style="text-align: center">
+                    @Html.ActionLink("Edit", "Assignment_Edit", new { id = assignment.AssignmentId }) |
+                    @Html.ActionLink("Delete", "Assignment_Delete", new { id = assignment.AssignmentId }) |
+                    @Html.ActionLink("Details", "Assignment_ReadById", new { id = assignment.AssignmentId })
+                </td>
+            </tr>
+        }
+    </table>
+</div>

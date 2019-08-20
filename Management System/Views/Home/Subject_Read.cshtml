@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Management_System.Models.Subject>
+
+@{
+    ViewBag.Title = "Subject_Read";
+}
+
+<h2>Subject_Read</h2>
+
+<div>
+    <h4>Subject</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.SubjectName)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.createdOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.modifiedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.deletedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.isDeleted)
+            </th>
+            @*&nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>*@
+        </tr>
+        @foreach (Management_System.Models.Subject subject in Model)
+        {
+            <tr>
+                <td style="text-align: center">
+                    @subject.SubjectName
+                </td>
+                <td style="text-align: center">
+                    @subject.createdOn
+                </td>
+                <td style="text-align: center">
+                    @subject.modifiedOn
+                </td>
+                <td style="text-align: center">
+                    @subject.deletedOn
+                </td>
+                <td style="text-align: center">
+                    @subject.isDeleted
+                </td>
+                @*<td style="text-align: center">
+                    @Html.ActionLink("Edit", "Subject_Edit", new { id = subject.SubjectId }) |
+                    @Html.ActionLink("Delete", "Subject_Delete", new { id = subject.SubjectId }) |
+                    @Html.ActionLink("Details", "Subject_ReadById", new { id = subject.SubjectId })
+                </td>*@
+            </tr>
+        }
+    </table>
+</div>

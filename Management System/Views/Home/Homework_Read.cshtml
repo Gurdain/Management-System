@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Management_System.Models.Homework>
+
+@{
+    ViewBag.Title = "Homework_Read";
+}
+
+<h2>Homework_Read</h2>
+
+<div>
+    <h4>Homework</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.HomeworkName)
+            </th>
+            &nbsp;
+            <th style="text-align: center">
+                @Html.DisplayNameFor(model => model.Path)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="170">
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.StudentId)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.FacultyId)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>
+        </tr>
+        @foreach (Management_System.Models.Homework homework in Model)
+        {
+        <tr>
+            <td style="text-align: center">
+                @homework.HomeworkName
+            </td>
+            <td style="text-align: center">
+                @homework.Path
+            </td>
+            <td style="text-align: center">
+                @homework.Type
+            </td>
+            <td style="text-align: center">
+                @homework.StudentId
+            </td>
+            <td style="text-align: center">
+                @homework.FacultyId
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Edit", "Assignment_Edit", new { id = homework.HomeworkId }) |
+                @Html.ActionLink("Delete", "Assignment_Delete", new { id = homework.HomeworkId }) |
+                @Html.ActionLink("Details", "Assignment_ReadById", new { id = homework.HomeworkId })
+            </td>
+        </tr>
+        }
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

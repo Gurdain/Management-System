@@ -1,0 +1,85 @@
+﻿@model Management_System.Models.Assignment
+
+@{
+    ViewBag.Title = "Assignment_ReadById";
+}
+
+<h2>Assignment_ReadById</h2>
+
+<div>
+    <h4>Assignment</h4>
+    <hr />
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.AssignmentName)
+            </th>
+            &nbsp;
+            <th style="text-align: center">
+                @Html.DisplayNameFor(model => model.Path)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="170">
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.FacultyId)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.createdOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.modifiedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.deletedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.isDeleted)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.AssignmentName)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.Path)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.Type)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.FacultyId)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.createdOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.modifiedOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.deletedOn)
+            </td>
+            <td style="text-align: center">
+                @Html.DisplayFor(model => model.isDeleted)
+            </td>
+            <td style="text-align: center">
+                @Html.ActionLink("Edit", "Assignment_Edit", new { id = Model.AssignmentId }) |
+                @Html.ActionLink("Delete", "Assignment_Delete", new { id = Model.AssignmentId })
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Assignment_Read")
+</div>

@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Management_System.Models.Student>
+
+@{
+    ViewBag.Title = "Student_Read";
+}
+
+<h2>Student_Read</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <h4>@ViewBag.Message</h4>
+    <table border="1">
+        <tr>
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.StudentName)
+            </th>
+            &nbsp;
+            <th style="text-align: center">
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="170">
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.createdOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.modifiedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.deletedOn)
+            </th>
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.isDeleted)
+            </th>
+            @*&nbsp;
+                <th style="text-align: center" width="150">
+                    @Html.DisplayNameFor(model => model.StudentGuid)
+                </th>*@
+            &nbsp;
+            <th style="text-align: center" width="150">
+                @Html.DisplayNameFor(model => model.BranchId)
+            </th>
+            @*&nbsp;
+            <th style="text-align: center" width="150">
+                <h5><b>Quick Actions</b></h5>
+            </th>*@
+        </tr>
+        @foreach (Management_System.Models.Student student in Model)
+        {
+            <tr>
+                <td style="text-align: center">
+                    @student.StudentName
+                </td>
+                <td style="text-align: center">
+                    @student.Email
+                </td>
+                <td style="text-align: center">
+                    @student.Password
+                </td>
+                <td style="text-align: center">
+                    @student.Mobile
+                </td>
+                <td style="text-align: center">
+                    @student.Active
+                </td>
+                <td style="text-align: center">
+                    @student.createdOn
+                </td>
+                <td style="text-align: center">
+                    @student.modifiedOn
+                </td>
+                <td style="text-align: center">
+                    @student.deletedOn
+                </td>
+                <td style="text-align: center">
+                    @student.isDeleted
+                </td>
+                @*<td style="text-align: center">
+                        @student.StudentGuid
+                    </td>*@
+                <td style="text-align: center">
+                    @student.BranchId
+                </td>
+                @*<td style="text-align: center">
+                    @Html.ActionLink("Edit", "Student_Edit", new { id = student.StudentId }) |
+                    @Html.ActionLink("Delete", "Student_Delete", new { id = student.StudentId }) |
+                    @Html.ActionLink("Details", "Student_ReadById", new { id = student.StudentId })
+                </td>*@
+            </tr>
+        }
+    </table>
+</div>

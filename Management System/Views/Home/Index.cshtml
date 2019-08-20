@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Welcome</h1>
+    <p class="lead">A prestigious Institute that turns Coals into Diaomnds. Enroll your Coal now</p>
+    @*<p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Student Portal</h2>
+        @Html.ActionLink("Student Register", "Student_create")
+    </div>
+    <div class="col-md-4">
+        <h2>Faculty Portal</h2>
+        @Html.ActionLink("Faculty Register", "Faculty_create")
+    </div>
+    <div class="col-md-4">
+        <h2>Branch Portal</h2>
+        @Html.ActionLink("Add Branch", "Branch_create")
+    </div>
+    <div class="col-md-4">
+        <h2>Subject Portal</h2>
+        @Html.ActionLink("Add Subject", "Subject_create")
+    </div>
+</div>
